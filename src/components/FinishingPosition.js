@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Row, Grid } from 'react-native-easy-grid';
+import { Row, Grid } from 'react-native-easy-grid';
 import FinishingPositionRow from './FinishingPositionRow'
 
 const FinishingPosition = () => {

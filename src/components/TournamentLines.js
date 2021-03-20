@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
-import { Container, Tab, Tabs, TabHeading, Text } from 'native-base';
+import { Tab, Tabs, TabHeading, Text } from 'native-base';
 import FinishingPosition from './FinishingPosition';
 import RoundLeader from './RoundLeader';
 
