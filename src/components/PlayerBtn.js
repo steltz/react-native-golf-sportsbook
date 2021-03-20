@@ -5,8 +5,8 @@ import { Button, Text } from 'native-base';
 const PlayerBtn = ({ player }) => {
   return (
     <Button bordered style={ styles.btnStyle }>
-      <Text>{ player.name }</Text>
-      <Text>{ player.odds }</Text>
+      <Text style={{ fontSize: 12 }}>{ player.name }</Text>
+      <Text style={{ fontSize: 12 }}>{ player.odds }</Text>
     </Button>
   );
 };

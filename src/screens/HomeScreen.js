@@ -1,7 +1,8 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
 import { Container, Tab, Tabs, TabHeading, Text } from 'native-base';
-import TournamentLines from '../components/TournamentLines'
+import TournamentLines from '../components/TournamentLines';
+import LiveGolfBetting from '../components/LiveGolfBetting';
 
 const HomeScreen = () => {
   return (
@@ -11,7 +12,7 @@ const HomeScreen = () => {
           <TournamentLines />
         </Tab>
         <Tab heading={ <TabHeading><Text style={styles.tabHeading}>LIVE GOLF BETTING</Text></TabHeading> }>
-          <Text>Tab 2</Text>
+          <LiveGolfBetting />
         </Tab>
         <Tab heading={ <TabHeading><Text style={styles.tabHeading}>MATCHUPS</Text></TabHeading> }>
           <Text>Tab 3</Text>
