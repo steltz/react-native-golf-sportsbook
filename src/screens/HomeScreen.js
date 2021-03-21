@@ -14,9 +14,6 @@ const HomeScreen = () => {
         <Tab heading={ <TabHeading><Text style={styles.tabHeading}>LIVE GOLF BETTING</Text></TabHeading> }>
           <LiveGolfBetting />
         </Tab>
-        <Tab heading={ <TabHeading><Text style={styles.tabHeading}>MATCHUPS</Text></TabHeading> }>
-          <Text>Tab 3</Text>
-        </Tab>
       </Tabs>
     </Container>
   );
