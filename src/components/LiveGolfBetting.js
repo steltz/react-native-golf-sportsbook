@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet } from 'react-native';
+import { ScrollView, StyleSheet } from 'react-native';
 import { Text } from 'native-base';
 import { Row, Grid } from 'react-native-easy-grid';
 import LiveBettingHole from './LiveBettingHole';
@@ -11,15 +11,15 @@ const LiveGolfBetting = () => {
       lines: [
         {
           name: 'Shane Lowry',
-          odds: 3.05
+          winnerLine: 3.05
         },
         {
           name: 'Tie',
-          odds: 2.35
+          winnerLine: 2.35
         },
         {
           name: 'Russell Henly',
-          odds: 4.35
+          winnerLine: 4.35
         }
       ]
     },
@@ -28,15 +28,15 @@ const LiveGolfBetting = () => {
       lines: [
         {
           name: 'Shane Lowry',
-          odds: 3.20
+          winnerLine: 3.20
         },
         {
           name: 'Tie',
-          odds: 2.15
+          winnerLine: 2.15
         },
         {
           name: 'Russell Henly',
-          odds: 3.20
+          winnerLine: 3.20
         }
       ]
     },
@@ -45,34 +45,70 @@ const LiveGolfBetting = () => {
       lines: [
         {
           name: 'Shane Lowry',
-          odds: 4.60
+          winnerLine: 4.60
         },
         {
           name: 'Tie',
-          odds: 1.54
+          winnerLine: 1.54
         },
         {
           name: 'Russell Henly',
-          odds: 5.40
+          winnerLine: 5.40
+        }
+      ]
+    },
+    {
+      title: "Best Score - Hole 17 (Par 4), Round 3",
+      lines: [
+        {
+          name: 'Shane Lowry',
+          winnerLine: 3.45
+        },
+        {
+          name: 'Tie',
+          winnerLine: 2.35
+        },
+        {
+          name: 'Russell Henly',
+          winnerLine: 3.45
+        }
+      ]
+    },
+    {
+      title: "Best Score - Hole 18 (Par 3), Round 3",
+      lines: [
+        {
+          name: 'Shane Lowry',
+          winnerLine: 3.05
+        },
+        {
+          name: 'Tie',
+          winnerLine: 2.15
+        },
+        {
+          name: 'Russell Henly',
+          winnerLine: 3.20
         }
       ]
     }
   ]
   return (
-    <Grid>
-      {
-        holes.map(hole => {
-          return (
-            <Row style={ styles.rowStyle }>
-              <Text style={ styles.titleStyle }>
-                { hole.title }
-              </Text>
-              <LiveBettingHole lines={ hole.lines }/>
-            </Row>
-          );
-        })
-      }
-    </Grid>
+    <ScrollView>
+      <Grid>
+        {
+          holes.map(hole => {
+            return (
+              <Row style={ styles.rowStyle }>
+                <Text style={ styles.titleStyle }>
+                  { hole.title }
+                </Text>
+                <LiveBettingHole lines={ hole.lines }/>
+              </Row>
+            );
+          })
+        }
+      </Grid>
+    </ScrollView>
   );
 };
 

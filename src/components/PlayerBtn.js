@@ -6,7 +6,7 @@ const PlayerBtn = ({ player }) => {
   return (
     <Button bordered style={ styles.btnStyle }>
       <Text style={{ fontSize: 12 }}>{ player.name }</Text>
-      <Text style={{ fontSize: 12 }}>{ player.odds }</Text>
+      <Text style={{ fontSize: 12 }}>{ player.winnerLine }</Text>
     </Button>
   );
 };

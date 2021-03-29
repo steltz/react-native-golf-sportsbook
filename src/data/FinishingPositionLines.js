@@ -12,7 +12,7 @@ export default [
       "top10line": "1.30"
   },
   {
-      "name": "Cameron Tringale",
+      "name": "Stephen Murphy",
       "winnerLine": "11.00",
       "top5line": "2.25",
       "top10line": "1.45"
@@ -36,7 +36,7 @@ export default [
       "top10line": "1.67"
   },
   {
-      "name": "Keegan Bradley",
+      "name": "Med Nadooshan",
       "winnerLine": "21.00",
       "top5line": "3.50",
       "top10line": "1.91"
@@ -48,7 +48,7 @@ export default [
       "top10line": "2.00"
   },
   {
-      "name": "Sam Ryder",
+      "name": "Deanna Ishikawa",
       "winnerLine": "23.00",
       "top5line": "3.50",
       "top10line": "2.00"
@@ -60,7 +60,7 @@ export default [
       "top10line": "2.38"
   },
   {
-      "name": "Brice Garnett",
+      "name": "Greg Viverito",
       "winnerLine": "41.00",
       "top5line": "4.50",
       "top10line": "2.38"
@@ -84,7 +84,7 @@ export default [
       "top10line": "2.88"
   },
   {
-      "name": "Robert Streb",
+      "name": "Mike Grundvig",
       "winnerLine": "67.00",
       "top5line": "6.00",
       "top10line": "3.00"
@@ -102,7 +102,7 @@ export default [
       "top10line": "4.00"
   },
   {
-      "name": "Adam Hadwin",
+      "name": "Gary Bogdanski",
       "winnerLine": "101.00",
       "top5line": "11.00",
       "top10line": "4.00"

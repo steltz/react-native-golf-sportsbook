@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollView, StyleSheet } from 'react-native';
+import { ScrollView } from 'react-native';
 import { Text } from 'native-base';
 import { Row, Grid, Col } from 'react-native-easy-grid';
 import FinishingPositionRow from './FinishingPositionRow';
